@@ -63,4 +63,18 @@ public class BinaryTree {
             System.out.print(node.getValue() + " ");
         }
     }
+
+    public boolean findeValue(int value) {
+        return findeValue(root, value);
+    }
+
+    private boolean findeValue(Node node, int value) {
+        if (node == null) {
+            return false;
+        }
+        if (node.getValue() == value) {
+            return true;
+        }
+        return findeValue(node.getLeft(), value) || findeValue(node.getRight(), value);
+    }
 }
