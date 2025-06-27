@@ -1,7 +1,8 @@
-import materia.controller.BinaryTree;
+//import materia.controller.BinaryTree;
+import materia.controller.AVLTree;
 public class App {
-    public static void main(String[] args) throws Exception {
-        BinaryTree ab = new BinaryTree();
+        public static void main(String[] args) throws Exception {
+        /*BinaryTree ab = new BinaryTree();
 
         ab.insert(50);
         ab.insert(17);
@@ -27,6 +28,12 @@ public class App {
             System.out.println("Encontro el valor 77");
         } else {
             System.out.println("No encontro el valor 77");
-        }
-    }
+        }*/
+
+        AVLTree avl = new AVLTree();
+        avl.insert(5);
+        avl.insert(20);
+        avl.insert(15);
+
+    } 
 }
