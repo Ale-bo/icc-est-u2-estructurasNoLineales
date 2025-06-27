@@ -13,6 +13,9 @@
 
 ## 🛠️ Descripción 
 ![Imagen de Terinal](image.png)
+
+![image](https://github.com/user-attachments/assets/071e05cd-3986-4901-a250-cda41fb36759)
+
 ---
 
 ## 🚀 Ejecución
